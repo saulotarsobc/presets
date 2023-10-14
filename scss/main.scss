@@ -20,23 +20,28 @@ h2 {
     .item {
         display: flex;
         font-size: 20px;
-        
+        background-color: aquamarine;
+        padding: 2px;
+
         div {
             // background-color: rebeccapurple;
             width: 30px;
             text-align: center;
-            padding: 3px;
+            padding: 4px;
         }
-        
+
         input {
             width: 200px;
             height: 35px;
             padding: 0 5px;
             font-size: 20px;
+            border-radius: 5px;
+            border: 1px solid beige;
         }
 
         &+.item {
-            margin-top: 3px;
+            margin-top: 1px;
+            border-radius: 5px;
         }
     }
 }
