@@ -12,8 +12,15 @@ body {
     // padding: 30px;
 }
 
-h2 {
-    margin-bottom: 5px;
+header {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 30px;
+    }
+
+    margin: 8px 0;
 }
 
 .wrap {
