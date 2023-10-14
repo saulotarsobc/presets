@@ -13,13 +13,19 @@ body {
 
 .wrap {
     .item {
-        span {
-            background-color: rebeccapurple;
+        display: flex;
+
+        div {
+            // background-color: rebeccapurple;
             width: 20px;
+            text-align: center;
+            padding: 3px;
         }
 
         input {
             width: 200px;
+            height: 25px;
+            padding: 0 5px;
         }
 
         &+.item {
