@@ -21,6 +21,7 @@ h2 {
         display: flex;
         font-size: 20px;
         background-color: aquamarine;
+        border-radius: 5px;
         padding: 2px;
 
         div {
@@ -41,7 +42,6 @@ h2 {
 
         &+.item {
             margin-top: 1px;
-            border-radius: 5px;
         }
     }
 }
